@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.QRContainer {
+    margin: 0 auto;
+    margin-top: 200px;
+    height: 500px;
+    width: 300px;
+    border: 2px solid;
+    padding: 20px 50px 20px 50px;
+    border-radius: 5%;
+    display: grid;
+    grid-template-rows: 200px 30px 50px 80px;
+    align-items: center;
+}
+
+@media (319px <= width <= 767px) {
+
+    .QRContainer {
+        margin: 0 auto;
+        margin-top: 200px;
+        height: 500px;
+        width: 300px;
+        border: 2px solid;
+        padding: 20px 50px 20px 50px;
+        border-radius: 5%;
+        display: grid;
+        grid-template-rows: 200px 30px 50px 80px;
+        align-items: center;
+    }
+}
